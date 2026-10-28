@@ -214,7 +214,7 @@
             const message = `Hola, he realizado una transferencia a tu cuenta de *${bankInfo.name}*.\n\n👤 *Cliente:* ${clientName}\n📝 *Concepto:* ${concept}\n💳 *Cuenta utilizada:* ${bankInfo.number}\n\nAdjunto mi comprobante de pago.`;
             
             // Reemplaza con tu número de teléfono real si lo deseas, o abre chat libre
-            const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+            const whatsappUrl = `https://wa.me/51916624758?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
             closeVoucherModal();
         }
